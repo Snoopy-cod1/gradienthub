@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300..700&family=Dosis&family=Jura:wght@300..700&family=LXGW+WenKai+Mono+TC&family=Neucha&family=Oswald:wght@200..700&family=Permanent+Marker&family=Podkova:wght@400..800&family=Tektur:wght@400..900&family=Unbounded:wght@200..900&display=swap');
+*{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAE1DF;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 750px;
+    width: 1200px;
+
+}
+.love{
+    color: rgb(207, 8, 8);
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+}
+li{
+    margin: 20px;
+    border-radius: 8px;
+    border-color: #333;
+    
+}
+a{
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    width: 64px;
+    text-align: center;
+    background-color: #FAE1DF;
+    padding: 1px 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transition: 0.4s;
+}
+ul li a:hover{
+    background-color: #333;
+    color: #FAE1DF;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+h1{
+    font-family: "Permanent Marker", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 12px;
+    text-shadow: 7px -1px 6px rgba(66, 68, 90, 1);
+}
+
+.cardg1{
+    background: rgb(20,122,7);
+    background: linear-gradient(90deg, rgba(20,122,7,1) 0%, rgba(10,161,32,1) 45%, rgba(191,189,6,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg1 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg1 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+}
+.cardg2{
+    background: rgb(193,149,2);
+background: linear-gradient(90deg, rgba(193,149,2,1) 0%, rgba(218,187,24,1) 45%, rgba(223,162,6,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg2 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg2 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+}
+.cardg3{
+    background: rgb(5,177,205);
+background: linear-gradient(90deg, rgba(5,177,205,1) 0%, rgba(24,191,218,1) 44%, rgba(6,138,223,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg3 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg3 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+}
+.cardg4{
+    background: rgb(205,5,194);
+background: linear-gradient(90deg, rgba(205,5,194,1) 0%, rgba(213,24,218,1) 44%, rgba(151,6,223,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg4 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg4 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+}    
+footer{
+    text-align: center;
+}
+.cardg31{
+    background: rgb(20,122,7);
+    background: linear-gradient(90deg, rgba(20,122,7,1) 0%, rgba(10,161,32,1) 45%, rgba(191,189,6,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg31 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg31 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+}
+.cardg41{
+    background: rgb(193,149,2);
+background: linear-gradient(90deg, rgba(193,149,2,1) 0%, rgba(218,187,24,1) 45%, rgba(223,162,6,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg41 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg41 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+}
+.cardg11{
+    background: rgb(5,177,205);
+background: linear-gradient(90deg, rgba(5,177,205,1) 0%, rgba(24,191,218,1) 44%, rgba(6,138,223,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg11 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg11 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+}
+.cardg21{
+    background: rgb(205,5,194);
+background: linear-gradient(90deg, rgba(205,5,194,1) 0%, rgba(213,24,218,1) 44%, rgba(151,6,223,1) 84%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+}
+.cardg21 a{
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    border-color: #333;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    height: 60px;
+    width: 80px;
+    backdrop-filter: blur(255px);
+    transition: 0.2s;
+}
+.cardg21 a:hover{
+    -webkit-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0px -3px 35px 2px rgba(255, 255, 255, 0.2) inset;
+} 
+.card{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards1{
+    background: rgb(136,136,136);
+    background: linear-gradient(90deg, rgba(136,136,136,1) 0%, rgba(37,35,35,1) 22%, rgba(0,0,0,1) 100%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+
+    color:#FFF;
+}
+
+.cards2{
+    background: rgb(136,136,136);
+    background: linear-gradient(90deg, rgba(136,136,136,1) 0%, rgba(37,35,35,1) 22%, rgba(0,0,0,1) 100%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+
+    color:#FFF;
+}
+
+.cards3{
+    background: rgb(136,136,136);
+    background: linear-gradient(90deg, rgba(136,136,136,1) 0%, rgba(37,35,35,1) 22%, rgba(0,0,0,1) 100%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+    color:#FFF;
+
+}
+
+.cards4{
+    background: rgb(136,136,136);
+    background: linear-gradient(90deg, rgba(136,136,136,1) 0%, rgba(37,35,35,1) 22%, rgba(0,0,0,1) 100%);
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    padding-top: 105px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    border-radius: 16px;
+    color:#FFF;
+
+}
+
+.nst{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color:#FFF
+}
+.cards1 h2{
+    text-shadow: -5px 5px 10px rgb(103, 255, 128);
+    color:rgb(103, 255, 128);
+}
+.cards2 h2{
+    text-shadow: -5px -3px 10px rgba(255, 188, 0, 1);
+    color: rgba(255, 188, 0, 1);
+}
+.cards3 h2{
+    text-shadow: -4px 11px 5px rgba(0, 241, 255, 1);
+}
+.cards4 h2{
+    text-shadow: 6px 6px 5px rgba(130, 136, 136, 1);
+}
